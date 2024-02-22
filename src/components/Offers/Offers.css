@@ -1,0 +1,24 @@
+.offers__container {
+  padding: 5% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.offers__container img {
+  width: 48%;
+}
+.offers-banners {
+  width: 87%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 500px) {
+  .offers__container img {
+    width: 100%;
+  }
+  .offers-banners {
+    flex-direction: column;
+    gap: 25px;
+  }
+}

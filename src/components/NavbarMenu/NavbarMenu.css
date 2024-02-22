@@ -1,0 +1,14 @@
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+}
+.menu a {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--dark-green);
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
