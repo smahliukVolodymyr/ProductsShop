@@ -1,0 +1,35 @@
+.img__container {
+  position: relative;
+  width: 33%;
+}
+.img__container img {
+  width: 350px;
+  height: 350px;
+}
+.img__container button {
+  position: absolute;
+  left: 67%;
+  top: 42%;
+  width: 200px;
+  border: none;
+  background-color: #ffff;
+  font-family: "Roboto", sans-serif;
+  color: var(--dark-green);
+  padding: 15px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 550px) {
+  .img__container button {
+    left: 78%;
+    width: 150px;
+    padding: 10px;
+  }
+  .img__container img {
+    width: 300px;
+    height: 300px;
+  }
+}

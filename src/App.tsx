@@ -1,14 +1,10 @@
-import Banner from "./components/Banner/Banner";
-import Navbar from "./components/Navbar/Navbar";
-import Offers from "./components/Offers/Offers";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Banner />
-      <Offers />
-    </div>
+    <>
+      <Home />
+    </>
   );
 }
 

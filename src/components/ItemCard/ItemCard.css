@@ -1,0 +1,61 @@
+.itemcard__container {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  background-color: #ffff;
+  border-radius: 25px;
+  padding: 25px 25px 10px 25px;
+}
+.itemcard__container span {
+  background-color: var(--dark-green);
+  font-weight: bold;
+  color: var(--white);
+  width: fit-content;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.itemcard__container h4 {
+  font-family: "Roboto", sans-serif;
+  color: var(--dark-green);
+  font-size: 20px;
+  margin: 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--grey);
+}
+.itemcard-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.itemcard-price {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.itemcard-price p {
+  color: var(--dark-green);
+  font-size: 18px;
+  font-weight: bold;
+}
+.itemcard-price p:first-child {
+  text-decoration: line-through;
+  font-size: 15px;
+  font-weight: lighter;
+  color: #b8b8b8;
+}
+
+@media screen and (max-width: 450px) {
+  .itemcard__container h4 {
+    font-size: 16px;
+  }
+  .itemcard-price p {
+    font-size: 14px;
+  }
+  .itemcard-price p:first-child {
+    font-size: 12px;
+  }
+  .itemcard__container span {
+    font-size: 12px;
+  }
+}
